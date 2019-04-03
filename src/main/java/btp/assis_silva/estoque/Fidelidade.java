@@ -10,7 +10,7 @@ public class Fidelidade {
 		clientes = new ArrayList<Cliente>();
 	}
 	
-	private String add_pontos(String cliente, double valor) {
+	public String add_pontos(String cliente, double valor) {
 		if(valor > 274.99) {
 			int index = 0;
 			boolean use_index = false;
